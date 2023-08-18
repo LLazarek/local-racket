@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec $(racket ~/ghs/projects/local-racket/local-racket.rkt raco) "$@"
